@@ -6,7 +6,7 @@
 [importsigma.com](https://importsigma.com)
 
 ### Admin Portal
-Access the admin portal at: http://localhost/Website2/login.php
+Access the admin portal at http://localhost/Website2/login.php
 - **Username**: admin
 - **Password**: admin
 
@@ -20,6 +20,7 @@ To set up the database, import the `Website.sql` file into your SQL management t
 
 ## Using the Application
 - Once the database is set up, you should be able to log in using the credentials provided above.
+- Don't forget to extract CustomersTab.zip before you start launching the project.
 - Navigate through the admin portal to manage different aspects of the website, like Coaches, Cars, and Customers.
 
 ## Notes
