@@ -1,6 +1,9 @@
-# Website2 Project README
+# Sigma Imports Project README
 
 ## Access Details
+
+### Public Website URL: 
+importsigma.com
 
 ### Admin Portal
 Access the admin portal at: http://localhost/Website2/login.php
