@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Web</title>
+    <link rel = "stylesheet" href="Assets/css/style.css" />
+    <script src="https://kit.fontawesome.com/c24752484b.js" crossorigin="anonymous"></script>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <body>
+            <!-- Navbar Section -->
+            <nav class="navbar">
+                <div class="navbar__container">
+                    <a href="index.html" id="navbar__logo"> Sigma Imports</a>
+                    <div class="navbar__toggle" id="mobile-menu">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </div>
+                    <ul class="navbar__menu">
+                        <li class="navbar__item">
+                            <a href="index.html" class="navbar__links">Home</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="Coaches.php" class="navbar__links">Coaches</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="Cars.php" class="navbar__links">Cars</a>
+                        </li>
+                        <li class="navbar__btn">
+                            <a href="appointment1.html" class="button">Book a Lesson</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Hero1 Section -->
+            <div class="">
+                <h3></h3>
+            </div>
+            <!-- Hero Section -->
+            <div class="main">
+                <div class="main__container">
+                    <div class="main__content">
+                        <h1>First Drift School</h1>
+                        <a href="appointment1.html" class="button">Book a Lesson</a>
+                    </div>
+                    <div class="main__img--container">
+                        <img src="/Website2/Assets/Images/drift.png" alt="pic" width="500" id="main__img">
+                    </div>
+                </div>
+            </div>
+        <!-- Services -->
+        <div class="services">
+            <h1>Drift Seasons</h1>
+            <div class="services__container">
+                <div class="services__card">
+                    <h2>HotWheels</h2>
+                    <p>Explore our Muscle Cars</p>
+                    <button onclick="location.href='appointment1.html'">Book a Lesson</button>
+
+                </div>
+                <div class="services__card">
+                    <h2>JDM Nation</h2>
+                    <p>Enjoy the Culture</p>
+                    <button onclick="location.href='appointment1.html'">Book a Lesson</button>
+
+                </div>      
+            </div>   
+        </div>
+        
+        <!-- Footer section -->
+        <div class="footer__container">
+            <div class="footer__links">
+                <div class="footer__link--wrapper">
+                    <div class="footer__lin--items">
+                        <a href="AboutUs.html">About us</a>
+                        <a href="index.html">How it works</a>
+                        <a href="index.html">Our Team</a>
+                        <a href="index.html">Find Us</a>
+                        <a href="index.html">Careers</a>
+                        <a href="index.html">Become a Partner</a>
+                        <a href="index.html">Terms and Services</a>
+                    </div>                                               
+                </div>
+            </div>
+            <div class="social__media">
+                <div class="social__media--wrap">
+                    <p class="website__right">© Sigma Imports 2024. All rights reserved</p>
+                    <div class="social__icons">
+                        <a href="https://www.facebook.com" class="social__icons--link"
+                        target = "_blank">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com" class="social__icons--link"
+                        target = "_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.linkedin.com" class="social__icons--link"
+                        target = "_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.twitter.com" class="social__icons--link"
+                        target = "_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.youtube.com" class="social__icons--link"
+                        target = "_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Popup -->
+        <div id="PopUp" class="modal">
+            <div class="modal__content">
+                <span class="close" onclick="closeUp()">&times;</span>
+                <form action="process__form.php" method="POST">
+                    <label for="first__name">First Name:</label>
+                    <input type="text" id="first__name" name="first__name"><br><br>
+
+                    <label for="last__name">Last Name:</label>
+                    <input type="text" id="last__name" name="last__name"><br><br>
+
+                    <label for="phone__num">Phone Number:</label>
+                    <input type="number" id="phone__num" name="phone__num"><br><br>
+
+                    <label for="email__">Email:</label>
+                    <input type="email" id="email__" name="email__"><br><br>
+
+                    <input type="submit" value="Submit" class="sub_btn">
+                </form>
+            </div>
+        </div>
+        
+        
+        <script src="popup.js"></script>
+
+        <script src="app.js"></script>
+    </body>
+</html>

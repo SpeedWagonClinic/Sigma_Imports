@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Log in</title>
+    <link rel="stylesheet" href="Assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        
+        background-image: url(Assets/Images/applo.jpeg);
+        background-repeat: no-repeat;
+        
+      }
+    </style>
+  </head>
+  <body>
+    
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+          <a href="index.html" id="navbar__logo"> Sigma Imports</a>
+          <div class="navbar__toggle" id="mobile-menu">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
+          <ul class="navbar__menu">
+              <li class="navbar__item">
+                  <a href="index.html" class="navbar__links">Home</a>
+              </li>
+              <li class="navbar__item">
+                  <a href="Coaches.php" class="navbar__links">Coaches</a>
+              </li>
+              <li class="navbar__item">
+                  <a href="Cars.php" class="navbar__links">Cars</a>
+              </li>
+              <li class="navbar__btn">
+                <a href="appointment1.html" class="button">Book a Lesson</a>
+              </li>
+          </ul>
+      </div>
+  </nav>
+    <!-- Form Section -->
+    <div class="appointment-form-container">
+      <h2>Appointment form</h2>
+      <form action="submit_application.php " method="post" enctype="multipart/form-data">
+        <div class="input-box">
+          <label for = "Name">Name</label>
+          <input type="text" id="Name" name="Name" required>
+          
+        </div>
+        <div class="input-box">
+          <label for = "Surname">Surname</label>
+          <input type="text" id="Surname" name="Surname" required>
+          
+        </div>
+        <div class="input-box">
+          <label for = "Email">Email</label>
+          <input type="text" id="Email" name="Email" required>
+          
+        </div>
+        <div class="input-box">
+          <label for = "PhoneNum">Phone number</label>
+          <input type="text" id="PhoneNum" name="PhoneNum" required>
+          
+        </div>
+        <div class="input-box">
+          <label for="date">Desired Date:</label>
+          <input type="date" id="date" name="date" required />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    
+    <script src="app.js"></script>
+  </body>
+</html>
