@@ -4,7 +4,7 @@
 
 ### Public Website URL: 
 [importsigma.com](https://importsigma.com)
-<br>Try to book a lesson and recieve a confiramtion email!
+<br>Try to book a lesson and recieve a confirmation email!
 
 ### Admin Portal
 Access the admin portal at http://localhost/Website2/login.php
